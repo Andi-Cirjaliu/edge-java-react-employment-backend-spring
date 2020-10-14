@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: edgejavareactemploymentbackendspring
+  buildpacks: 
+    - java_buildpack
+  path: ./target/javaspring-1.0-SNAPSHOT.jar
+  memory: 1024M
